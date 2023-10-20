@@ -1,0 +1,11 @@
+CREATE (:Person {name: 'Lai'})-[:EDUCATED_AT]->(:University {name: 'University of Hong Kong'}),
+       (:Person {name: 'Kevin Barney Rollins', nationality: 'American', place_of_birth: 'Utah', place_of_residence: 'Utah'})-[:EDUCATED_AT]->(:University {name: 'BYU'}),
+       (:Person {name: 'Rollins', place_of_birth: 'Utah', place_of_residence: 'Utah'})-[:EDUCATED_AT]->(:University {name: 'Brigham Young University'}),
+       (:Person {name: 'Henry Chalfant Gearing', place_of_birth: 'Pittsburgh, Pennsylvania'}),
+       (:Person {name: 'Aguirre', place_of_residence: 'Mexico'}),
+       (:Person {name: 'Rafael Rangel Sostmann', date_of_birth: '14 August 1941'}),
+       (:Person {name: 'Claire'})-[:EDUCATED_AT]->(:University {name: 'University of Ottawa Faculty of Law'}),
+       (:Person {name: 'Coffey', place_of_residence: 'New Berlin'}),
+       (:Person {name: 'he'})-[:EDUCATED_AT]->(:University {name: 'Collège de Sainte-Anne-de-la-Pocatière'}),
+       (:Person {name: 'Robert Kahn'})-[:EMPLOYEE_OR_MEMBER_OF]->(:Organization {name: 'James Stirling, Michael Wilford & Associates'}),
+       (:Person {name: 'Hans Föllmer'})-[:EMPLOYEE_OR_MEMBER_OF]->(:University {name: 'National University of Singapore'});
